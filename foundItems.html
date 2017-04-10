@@ -1,0 +1,24 @@
+﻿
+<ul style="list-style-type: none">
+   
+     <!--<li ng-if="list.theItems.length == 0" class="list-group-item alert alert-danger">
+        <i>Nothing found.Sorry!!!! </i>
+    </li>-->
+
+    <li ng-repeat="item in list.theItems">
+        <div class="row">
+            <div class="col-md-3">
+                <b>Name:</b>{{ item.name }}
+            </div>
+            <div class="col-md-6">
+                <b>Description:</b>
+                {{ item.description}}
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-info" ng-click="list.onRemove({index: $index});">Don't want this one!</button>
+            </div>
+            <br><br><hr>
+        </div>
+    </li>
+
+</ul>
