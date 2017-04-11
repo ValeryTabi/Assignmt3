@@ -1,4 +1,4 @@
-﻿/// <reference path="angular.min.js" />
+/// <reference path="angular.min.js" />
 
 (function () {
     
@@ -8,7 +8,7 @@
     .controller('NarrowItDownController', NarrowItDownController) 
     .service('MenuSearchService', MenuSearchService)
     .directive('foundItems', FoundItems)
-    .constant('ApiBasePath', "http://davids-restaurant.herokuapp.com");
+    .constant('ApiBasePath', "httpS://davids-restaurant.herokuapp.com");
     
 
     function FoundItems(){
