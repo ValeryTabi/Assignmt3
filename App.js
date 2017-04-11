@@ -8,7 +8,7 @@
     .controller('NarrowItDownController', NarrowItDownController) 
     .service('MenuSearchService', MenuSearchService)
     .directive('foundItems', FoundItems)
-    .constant('ApiBasePath', "httpS://davids-restaurant.herokuapp.com");
+    .constant('ApiBasePath', "https://davids-restaurant.herokuapp.com");
     
 
     function FoundItems(){
